@@ -1,0 +1,88 @@
+h1,
+p,
+h2 {
+  color: rgb(70, 161, 89);
+  font-family: "Josefin Sans", sans-serif;
+}
+li {
+  color: rgb(70, 161, 89);
+  font-family: "Josefin Sans", sans-serif;
+  font-style: italic;
+  font-size: large;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+/* nav_bar---------------------- */
+.navbar {
+  background-color: rgb(38, 36, 36);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 100px;
+  border-radius: 30px;
+  box-shadow: 10px 5px 10px rgb(70, 161, 89);
+}
+.aboutMe {
+  font-size: 30px;
+  text-decoration: none;
+}
+.navbar a {
+  color: rgb(70, 161, 89);
+  font-family: "Josefin Sans";
+}
+.navbar a.active {
+  background-color: #4caf50;
+  color: white;
+}
+/* my_letter and fonts */
+.my_letter {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.my_letter_font {
+  color: rgb(70, 161, 89);
+  font-family: "Josefin Sans", sans-serif;
+  font-style: italic;
+  font-size: x-large;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+/* skills----------------- */
+.skills {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.education,
+.employement,
+.key_skills {
+  width: 300px;
+}
+.ed_and_emp {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 30px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+.contact_head {
+  display: flex;
+  justify-content: center;
+}
+/* button-------------------------- */
+.buttonContact {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(70, 161, 89);
+  border-radius: 50%;
+}

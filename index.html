@@ -2,13 +2,28 @@
   <head>
     <meta charset="UTF-8" />
     <title>About me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <h1>PAVLO MATIUSHENKO</h1>
-    </header>
-    <img src="htmlpic.jpg" alt="rand_image" width="400" height="300" />
-    <div class="skills">
+    <div class="navbar">
+      <a class="aboutMe" href="#about_me">About me</a>
+      <a class="aboutMe" href="fav_places.html">Favorite Places</a>
+      <a class="aboutMe" href="fav_games.html">Favorite Game</a>
+    </div>
+    <div class="my_letter">
+      <header>
+        <h1 class="header">PAVLO MATIUSHENKO</h1>
+      </header>
+      <p class="my_letter_font"> As a creative and detail-oriented individual, I have always been fascinated by the way design and technology intersect to bring ideas to life. Over the past few years, I have honed my skills in HTML, CSS, and JavaScript and have discovered my passion for building user-friendly and visually appealing websites.
+
+        I am particularly drawn to the front-end development field because of its constant evolution and the opportunity to constantly learn and grow. With the advancements in technology, there is always something new to learn and new challenges to tackle. I believe that my natural curiosity, attention to detail, and problem-solving skills make me well suited for this dynamic field.
+        
+        Additionally, the ability to create and contribute to meaningful projects that can positively impact people's lives is what motivates me to pursue a career in front-end development. The idea of being able to bring my ideas to life and make a difference in the world excites me and drives me to pursue my goals.</p>
+    </div>
+    <div class="skills" id="about_me">
       <h2>Skills</h2>
       <ul>
         <li>Adobe Premiere Pro</li>
@@ -24,65 +39,63 @@
         interest for many years.
       </p>
     </div>
-    <div class="education">
-      <h2>Education</h2>
-      <ul>
-        <li>Slovyansk school №10, Ukraine (2008-2019)</li>
-        <li>
-          Donbass State Pedagogical University, Ukraine (2019-2021) - Bachelor’s
-          degree in Psychology, Speech and Language Therapy
-        </li>
-        <li>
-          Steps into The English Language Course (September/October, 2022) -
-          Speaking and Listening skills, Reading and writing skills, ESOL course
-        </li>
-      </ul>
+    <div class="ed_and_emp">
+      <div class="education">
+        <h2>Education</h2>
+        <ul>
+          <li>Slovyansk school №10, Ukraine (2008-2019)</li>
+          <li>
+            Donbass State Pedagogical University, Ukraine (2019-2021) - Bachelor’s
+            degree in Psychology, Speech and Language Therapy
+          </li>
+          <li>
+            Steps into The English Language Course (September/October, 2022) -
+            Speaking and Listening skills, Reading and writing skills, ESOL course
+          </li>
+        </ul>
+      </div>
+      <div class="employement">
+        <h2>Employment</h2>
+        <ul>
+          <li>
+            Public Organisation, Ukraine (August, 2021/March, 2022) - Video Editor
+          </li>
+          <li>
+            Logika School, Ukraine (October, 2021/February, 2022) - Teacher of
+            Python Programming courses
+          </li>
+          <li>
+            Public Organisation Promotion Specialist, Ukraine (October,
+            2021/February, 2022)
+          </li>
+        </ul>
+      </div>
+      <div class="key_skills">
+        <h2>Key skills</h2>
+        <ul>
+          <li>Problem solving</li>
+          <li>Adaptability</li>
+          <li>Analytical thinking</li>
+          <li>Organization</li>
+          <li>Communication</li>
+          <li>Self-motivation</li>
+          <li>Teamwork</li>
+          <li>Stress tolerance</li>
+          <li>Ambition</li>
+          <li>Quick-learner</li>
+          <li>Punctuality</li>
+          <li>Self-discipline</li>
+        </ul>
+      </div>
     </div>
-    <div class="employement">
-      <h2>Employment</h2>
-      <ul>
-        <li>
-          Public Organisation, Ukraine (August, 2021/March, 2022) - Video Editor
-        </li>
-        <li>
-          Logika School, Ukraine (October, 2021/February, 2022) - Teacher of
-          Python Programming courses
-        </li>
-        <li>
-          Public Organisation Promotion Specialist, Ukraine (October,
-          2021/February, 2022)
-        </li>
-      </ul>
-    </div>
-    <div>
-      <h2>Key skills</h2>
-      <ul>
-        <li>Problem solving</li>
-        <li>Adaptability</li>
-        <li>Analytical thinking</li>
-        <li>Organization</li>
-        <li>Communication</li>
-        <li>Self-motivation</li>
-        <li>Teamwork</li>
-        <li>Stress tolerance</li>
-        <li>Ambition</li>
-        <li>Quick-learner</li>
-        <li>Punctuality</li>
-        <li>Self-discipline</li>
-      </ul>
-    </div>
-    <div>
-      <h2>Contact</h2>
+    <h2 class="contact_head">Contact</h2>
+    <div class="contact">
       <ul>
         <li>Phone: 7877884302</li>
-        <li>Email: gridlock2001@gmail.com</li>
+        <li>Email: pavlomatiushenko@gmail.com</li>
         <li>Address: 98 Dixon Green Drive, Farnworth, Bolton, BL4 7EQ</li>
       </ul>
-      <p>
-        B1/B2 Level of English, Mother language: Ukrainian, Native: Russian,
-        A1/A2 Level of Polish
-      </p>
+      <button class="buttonContact"><a href="mailto:pavlomatiushenko@gmail.com">Contact me</a></a></button>
     </div>
-    <button><a href="mailto:pavlomatiushenko@gmail.com">Contact me</a></a></button>
   </body>
 </html>
